@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Timer de Foco por Guia",
+    "version": "1.1",
+    "description": "Mantenha o foco em uma aba específica com avisos se você sair.",
+    "permissions": ["tabs", "storage", "notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "host_permissions": ["<all_urls>"],
+    "icons": {
+      "128": "icon.png"
+    }
+  }
+  
